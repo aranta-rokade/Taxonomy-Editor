@@ -1,0 +1,19 @@
+<h1>
+  Taxonomy Editor
+</h1>
+
+<h2>Add New Term</h2>
+<a routerLink="/">Back</a><br/><br/>
+
+<h3 *ngIf= "isAdded">{{confirmString}}</h3>
+<br/>
+
+<form id="formNewTerm" name="formNewTerm" 
+      #termData="ngForm" (ngSubmit) = "addNewTerm(termData.value)">
+  <label>Name</label>
+  <input type="text" name="term" placeholder="Term Name" ngModel/><br/><br/>
+  <label>Category</label>
+  <input type="text" name="category" placeholder="Category Name" ngModel/><br/><br/>
+  <input type="submit" value="Add"/>
+
+</form>

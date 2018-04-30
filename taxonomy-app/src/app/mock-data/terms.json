@@ -1,0 +1,84 @@
+{
+  "terms": [
+    {
+      "term": "red",
+      "category": "colour",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "term": "white",
+      "category": "colour"
+    },
+    {
+      "id": 3,
+      "term": "blue",
+      "category": "colour"
+    },
+    {
+      "id": 4,
+      "term": "spinach",
+      "category": "food"
+    },
+    {
+      "id": 5,
+      "term": "pasta",
+      "category": "food"
+    },
+    {
+      "id": 6,
+      "term": "chocolate",
+      "category": "food"
+    },
+    {
+      "id": 7,
+      "term": "laptop",
+      "category": "electronic"
+    },
+    {
+      "id": 8,
+      "term": "USB cable",
+      "category": "electronic"
+    },
+    {
+      "id": 9,
+      "term": "ear phones",
+      "category": "electronic"
+    },
+    {
+      "id": 10,
+      "term": "English",
+      "category": "language"
+    },
+    {
+      "id": 11,
+      "term": "Spanish",
+      "category": "language"
+    },
+    {
+      "id": 12,
+      "term": "summer",
+      "category": "season"
+    },
+    {
+      "id": 13,
+      "term": "winter",
+      "category": "season"
+    },
+    {
+      "id": 14,
+      "term": "spring",
+      "category": "season"
+    },
+    {
+      "term": "autumn",
+      "category": "season",
+      "id": 15
+    },
+    {
+      "term": "one",
+      "category": "number",
+      "id": 16
+    }
+  ]
+}

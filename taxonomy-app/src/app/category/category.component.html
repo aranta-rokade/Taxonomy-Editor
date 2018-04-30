@@ -1,0 +1,15 @@
+<h1>
+  Taxonomy Editor
+</h1>
+
+<h2>List of Categories</h2>
+<a routerLink="/">Back</a><br/><br/>
+
+<table>
+  <th>Category</th>
+  <th>Terms</th>
+  <tr *ngFor = "let category of categories">
+    <td>{{category.category}}</td>
+    <td><ul *ngFor = "let term of category.terms"><li>{{term}}</li></ul></td>
+  </tr>
+</table>
